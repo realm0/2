@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Index</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <a class="navbar-brand" href="#">REALM - Researcher Evaluation ALternative Metrics</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><span class="sr-only">(current)</span></a>                
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-light">Data model</button>
+          </div>
+        </nav>
+
+        <div class="container-fluid">
+
+            <div class="row">                       
+                <div div class="col-md-1"></div>
+            
+                <div div class="col-md-10">
+                  
+     
+                    <h5 class="pt-4 mt-4">Terms created for the RDF data model of academic and social impacts of the REALM framework</h5>
+
+                      <table class="table table-sm table-striped">
+                        <thead>
+                          <tr class="table-primary">
+                            <th scope="col">Term</th>
+                            <th scope="col">Description</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td align="center" colspan="2"><b>Classes</b></td>
+                          </tr>
+                          <tr>
+                            <td>SocialImpact</td>
+                            <td>Social impact of a researcher</td>
+                          </tr>
+                            <td>AcademicImpact</td>
+                            <td>Academic impact of a researcher</td>
+                          </tr>
+                          <tr>
+                            <td align="center" colspan="2"><b>Object Properties</b></td>
+                          </tr>              
+                            <td>hasSocialImpact</td>
+                            <td>It defines that a researcher has a social impact</td>
+                          </tr>                          
+                          <tr>
+                            <td>hasAcademicImpact</td>
+                            <td>It defines that a researcher has a academic impact</td>
+                          </tr>
+                          <tr>
+                          <tr>
+                            <td align="center" colspan="2"><b>Datatype Properties</b></td>
+                          </tr> 
+                          <tr>
+                            <td>socialMediaCitations</td>
+                            <td>Number of researcher's citations in social media</td>
+                          </tr>
+                          <tr>
+                            <td>facebookCitations</td>
+                            <td>Number of researcher's citations on the online social network Facebook</td>
+                          </tr>
+                          <tr>
+                            <td>gplusCitations</td>
+                            <td>Number of researcher's citations on the online social network Google+</td>
+                          </tr>
+                          <tr>
+                            <td>spellingsUsed</td>
+                            <td>Alternative spellings to a researcher's name</td>
+                          </tr>
+                          <tr>
+                            <td>subnetwork</td>
+                            <td>In a scientific social network, it refers to the subnetwork in which a researcher belongs</td>
+                          </tr>
+                          <tr>
+                            <td>numberOfPublications</td>
+                            <td>Number of researchers' publications</td>
+                          </tr>
+                          <tr>
+                            <td>betweenness</td>
+                            <td>Betweenness of a researcher in an scientific social network</td>
+                          </tr>
+                          <tr>
+                            <td>closeness</td>
+                            <td>Closeness of a researcher in an scientific social network</td>
+                          </tr>
+                          <tr>
+                            <td>degree</td>
+                            <td>Degree of a researcher in an scientific social network</td>
+                          </tr>
+                          <tr>
+                            <td>pagerank</td>
+                            <td>Pagerank of a researcher in an scientific social network</td>
+                          </tr>
+                          <tr>
+                            <td>betweennessPos</td>
+                            <td>In a ranking, it represents the position of a researcher in the betweenness</td>
+                          </tr>
+                          <tr>
+                            <td>closenessPos</td>
+                            <td>In a ranking, it represents the position of a researcher in the closeness</td>
+                          </tr>
+                          <tr>
+                            <td>degreePos</td>
+                            <td>In a ranking, it represents the position of a researcher in the degree</td>
+                          </tr>
+                          <tr>
+                            <td>pagerankPos</td>
+                            <td>In a ranking, it represents the position of a researcher in the pagerank</td>
+                          </tr>
+                          <tr>
+                            <td>score</td>
+                            <td>Value that represents the sum of a researcher's positions in predefined metrics</td>
+                          </tr> 
+                          <tr>
+                            <td>scoreAlt</td>
+                            <td>Social score of a researcher</td>
+                          </tr>                                                     
+                          <tr>
+                            <td>hasNumberOfPublications</td>
+                            <td>Number of publications in a session</td>
+                          </tr>
+                          <tr>
+                            <td>hasNumberOfElements</td>
+                            <td>Number of elements of a session</td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                   <h5 class="pt-4 mt-4">RDF data model of the REALM framework, referring to the academic and social impacts</h5>
+                      <table class="table table-sm table-striped">
+                        <thead>
+                          <tr class="table-primary">
+                            <th scope="col">Prefixes</th>
+                          </tr>
+                        </thead>
+                        <tbody> 
+                          <tr>
+                            <td>realm:https://realmproject.github.io/realm/datamodel</td>
+                          </tr>
+                          <tr>
+                            <td>realmres:https://realmproject.github.io/realm/datamodel/1/Researcher/</td>
+                          </tr>
+                          <tr>
+                            <td>realmdata:https://realmproject.github.io/realm/datamodel/1/Data/</td>
+                          </tr>                            
+                          <tr>
+                            <td>ebucore:https://www.ebu.ch/metadata/ontologies/ebucore/index.html#</td>
+                          </tr>
+                          <tr>
+                            <td>cito:http://purl.org/spar/cito/</td>
+                          </tr>
+                          <tr>
+                            <td>dcite:https://sparontologies.github.io/datacite/current/datacite.html#</td>
+                          </tr>
+                          <tr>
+                            <td>rdf:http://www.w3.org/1999/02/22-rdf-syntax-ns#</td>
+                          </tr>      
+                          <tr>
+                            <td>foaf:http://xmlns.com/foaf/spec/#</td>
+                          </tr>
+                          <tr>
+                            <td>xsd: http://www.w3.org/2001/XMLSchema#</td>
+                          </tr>                                                 
+                       </tbody>
+                    </table> 
+
+                    <center><img src="https://realmproject.github.io/WWW/rdf_3.svg" width="750" height="450"></center>
+
+                      <h5 class="pt-4 mt-4">RDF data model for an instance of the academic and social impacts database</h5>
+                      The following figure shows how the RDF graph was modeled for an instance of the database
+
+                      <center><img src="https://realmproject.github.io/WWW/rdf_4.svg" width="750" height="450"></center>  
+
+                      <h5 class="pt-4 mt-4">RDF code for an instance of the academic and social impacts database</h5>
+                      The following code represents an instance of researcher and its academic and social impacts, built from the RDF data model.
+
+                      <center><img src="https://realmproject.github.io/WWW/cod_2.svg"></center>               
+
+                </div>
+            
+                <div div class="col-md-1"></div>
+                    
+            </div>
+        </div>
+
+
+<footer class="page-footer font-small blue pt-4 mt-4">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89776076-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-89776076-5');
+</script>
+
+  
+</footer>
+
+
+    </body>
+</html>
